@@ -1,0 +1,283 @@
+Return-Path: <Janvi.onlinemarketingonsultant@hotmail.com>
+Delivered-To: info@tujjar-oman.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id LpEUHLT4m2DkmyYATgMMlQ
+	(envelope-from <Janvi.onlinemarketingonsultant@hotmail.com>)
+	for <info@tujjar-oman.com>; Wed, 12 May 2021 11:48:04 -0400
+Return-path: <Janvi.onlinemarketingonsultant@hotmail.com>
+Envelope-to: info@tujjar-oman.com
+Delivery-date: Wed, 12 May 2021 11:48:04 -0400
+Received: from mail-oln040092254067.outbound.protection.outlook.com ([40.92.254.67]:6160 helo=APC01-PU1-obe.outbound.protection.outlook.com)
+	by premium188.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <Janvi.onlinemarketingonsultant@hotmail.com>)
+	id 1lgr5W-00Ac3j-PP
+	for info@tujjar-oman.com; Wed, 12 May 2021 11:48:04 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=KyvLVtaorJRwcxdovYzwUgm5UYrFNSCyTk0RBulPQ7piog2yLge46iIyuLT64/aUATksXEHQMestftyCAal40rkOlGlK6sXYckaGVyHjRd9cdNJiOY7i92zoQPI3DuAvOz9f8YkXe8hQwR5xVKNjA3PMQl3dt/G3xOfal3BbEctiTGlIrw4tpbhQPs5N4t/eTa/opXidBy6KPumrFTGJx3dDSXfSz55/jnOtE2o1298XD5S//52ZX6DaHokkPLlH1sbB55mXrrLKiNvfupwthWqAc5SH/tj5Ro+eJ59Da+nriOuxLTzx5jzV9VWmgxrNeGj6CUYFA40nWhp19zzPBg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=4yyaHbHTCk14Kl7Gb7nTZDUiORtCNI8VJERt1JB3nF8=;
+ b=GiLK+f1Sl/15KhzqnknXxpVSdWzT5dalPKDwPzzvvUf8xDVeQkXwSXgcPkSRMVHM+giP1NXRL/EXKogpZgGHeC0HBfCMVQ3hxvS/LzoLqt6I4MxC1ee5hwO3ujB2PnTIW6DgSlUEckcy6rllasrO3tZU6dmkjxoQBHkwHzUvD3+SLVyYaCZGegU8EWvXA2q6kYRsYRfkFHTndWFzSLpXPhmkuIFXZ+4qiWZypyuy+6gt2M3vxT1uYBXPj3Iuhrv2i35SSzrCjzUZu7sM4JtDflmZXOtILprJbWloz7rcyHskUGvumc+A8jdW3l5U4qGPehds9Ci6iUc9k3/lBYcDiA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=4yyaHbHTCk14Kl7Gb7nTZDUiORtCNI8VJERt1JB3nF8=;
+ b=eQAWMoqGYLnNt5cN9bzbaMLLHpNxn0eBjS+5yaDV+yRvxfZ5Vpn8bcZRj6vuLZOiqWHal1gsVGt5qKVcCLMyumC8dB9MWTErXpJ+c68fV2xWsGCOJqr/G8UeTDUDYCbGL+wZKWsus71M0JdGttR+RWuIoEtX+cZ/KgIdUgakfwaZFE136DKnY39NzksNbb68et5CUFMSd0xHjjN5viiO8KkkVjTFgbu2osU57EsJwmm9xsiXswDAWLhLKbP3PHyOMUulwb0gXbYGoxnZWi/lbD8HJ/K34/W11QmJuS6mgcyOrx74Z+crsKlJTu62Mf1n7KnWZEouBIVW6n68vcjhJQ==
+Received: from SLXP216CA0008.KORP216.PROD.OUTLOOK.COM (2603:1096:100:6::18) by
+ SG2PR01MB3126.apcprd01.prod.exchangelabs.com (2603:1096:4:2a::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4108.26; Wed, 12 May
+ 2021 15:46:28 +0000
+Received: from PU1APC01FT031.eop-APC01.prod.protection.outlook.com
+ (2603:1096:100:6:cafe::45) by SLXP216CA0008.outlook.office365.com
+ (2603:1096:100:6::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4108.31 via Frontend
+ Transport; Wed, 12 May 2021 15:46:28 +0000
+Received: from BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM
+ (2a01:111:e400:7ebe::45) by PU1APC01FT031.mail.protection.outlook.com
+ (2a01:111:e400:7ebe::226) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4129.25 via Frontend
+ Transport; Wed, 12 May 2021 15:46:28 +0000
+Received: from BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::fcc6:6d39:2b2f:1e93]) by BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::fcc6:6d39:2b2f:1e93%7]) with mapi id 15.20.4129.025; Wed, 12 May 2021
+ 15:46:28 +0000
+From: Janvi Shah <Janvi.onlinemarketingonsultant@hotmail.com>
+Subject: Re: Hightech SEO Proposal                                                                                                    
+Thread-Topic: Hightech SEO Proposal                                                                                                    
+Thread-Index: AQHXQysoVxUnwlAZv0Wg9gZXADbXQqrgBXDx
+Date: Wed, 12 May 2021 15:46:28 +0000
+Message-ID:
+ <BMXPR01MB3831C260C06FDEE37EE4265194529@BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM>
+References:
+ <BMXPR01MB383126730E107FB07D44924594579@BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM>
+In-Reply-To:
+ <BMXPR01MB383126730E107FB07D44924594579@BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker:
+ OriginalChecksum:57575C14C461D26F7A6BB330A97A486D8188FBDC8FDFDC182E81DB93B3389F54;UpperCasedChecksum:9DC34E6E2B44448FB8C6ADCA28CF58D4D982AF09B121744D518B7CE45E67E5E1;SizeAsReceived:14744;Count:42
+x-tmn: [/VFUiTt6YLDtZlfMeUMUZHXcaBN/S77H]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 42
+x-eopattributedmessage: 0
+x-ms-office365-filtering-correlation-id: 2e8c4f46-32b0-4dab-4f78-08d9155d1b40
+x-ms-traffictypediagnostic: SG2PR01MB3126:
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 6GlzDOlA8zJLoSUw7F2t6Bqy01YVZ95eMRFJV4mr9Qt+KxQBlRogPiWr+jKUVO6UGI9CIXnttinGxCZF84RHyony9dtVuX3kXOmjneLf5+KEuzBwUa4CiQhiVfJGPLfbe3DcHkCZQiXXKdHfW8jFPjf50kvqahBBAP5JD8Bqvw/WsGD53g2igafAvabOkYTR8T+wE3c5U1VaklLqlqkIfvowlxBtvlwlzszxK/AVuYARtdITSTiMC1y/KSXFrBVksURTyBOU7I8ion8uktdJpEbwIH1JRFG1Uw9GPINOL26EgX+Jx6+f6r/lLqzp22In2BeBPF9sZdzr+//gCrO3OH6VNwsOMffvNOIlMLVxt2w8OBllFvZXg03vxK/u9mS27uSW3oZvxOUzg0clP4Oy1JuKqlC7KFOCVNEY65emEtcWWyUN8WcJBsZ/yS/0xdmf
+x-ms-exchange-antispam-messagedata:
+ ti3TjZWBR2yjBDER0xy2meTTBndIbY/k6rt3hX9FhlrMESzYLLJD/LzcU+Hflx8fZvc2YNcu7hHRtlD1ZdaC5vidVMRyGhljRV84VXHiGGIKEDDhAp8RtgKbJ14R35i2opUvzu9MEEqJwqDwa0goIA==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_BMXPR01MB3831C260C06FDEE37EE4265194529BMXPR01MB3831INDP_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-3174-20-msonline-outlook-5c337.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-AuthSource: PU1APC01FT031.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2e8c4f46-32b0-4dab-4f78-08d9155d1b40
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 May 2021 15:46:28.1877
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SG2PR01MB3126
+X-Spam-Status: No, score=4.4
+X-Spam-Score: 44
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "premium188.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, Would you please tell me whether you received my last
+   email or not? Please let me know so that I can update you further. Would you
+    like to discuss a Redesign/Re-development of your website, SEO, M [...] 
+ Content analysis details:   (4.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 T_SPF_TEMPERROR        SPF: test of record failed (temperror)
+  1.2 MISSING_HEADERS        Missing To: header
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [janvi.onlinemarketingonsultant[at]hotmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  1.0 FORGED_SPF_HELO        No description available.
+  2.4 MALFORMED_FREEMAIL     Bad headers on message from free email
+                             service
+X-Spam-Flag: NO
+
+--_000_BMXPR01MB3831C260C06FDEE37EE4265194529BMXPR01MB3831INDP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+Would you please tell me whether you received my last email or not? Please =
+let me know so that I can update you further.
+Would you  like to discuss a Redesign/Re-development of your website, SEO, =
+Mobile Apps then I can send you our Portfolio/Packages/Company information =
+and time frame.  I have best offer you.
+Your reply will be highly appreciated.
+
+________________________________
+From: Janvi Shah
+Sent: Friday, May 7, 2021 10:25 AM
+Subject: Hightech SEO Proposal
+
+Hello & Good Day!
+
+I am a Marketing Manager for an international marketing company based in In=
+dia.
+
+While studying your website I couldn't help noticing it lacked any signific=
+ant ranking in Google - for any of your keywords.
+
+As you already suspect, this means your site is virtually invisible to pote=
+ntial customers searching for a supplier in your field.
+
+It's as though you'd made an expensive TV ad and then forgotten to buy any =
+airtime for people to see it
+
+My company can solve this problem for you. We are an Indian based Company, =
+with over 6 years of experience in the field of Search Engine Optimization.
+
+We have the expertise to send hundreds or even thousands, of customers to y=
+our website.
+
+Make your website visible on Search Engines!!
+
+Improve your business website ranking!!
+
+What this would cost!!
+
+If you'd like to know this information, you're welcome to write back and as=
+k. I look forward to hearing from you.
+
+Best Regards,
+Marketing Manager
+
+--_000_BMXPR01MB3831C260C06FDEE37EE4265194529BMXPR01MB3831INDP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin">Hi,<o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin">Would you pleas=
+e tell me whether you received my last email or not? Please let me know so =
+that I can update you further.<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin">Would you<span =
+style=3D"mso-spacerun:yes">&nbsp;
+</span>like to discuss a <b>Redesign</b>/<b>Re-development</b> of your webs=
+ite, <b>
+SEO, Mobile Apps</b> then I can send you our <b>Portfolio/Packages</b>/Comp=
+any information and time frame.<span style=3D"mso-spacerun:yes">&nbsp;
+</span>I have best offer you.<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin">Your reply will=
+ be highly appreciated.<o:p>&nbsp;</o:p></span></p>
+<br>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Janvi Shah<br>
+<b>Sent:</b> Friday, May 7, 2021 10:25 AM<br>
+<b>Subject:</b> Hightech SEO Proposal </font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Hello &amp; Good Day!
+<div><br>
+</div>
+<div>I am a Marketing Manager for an international marketing company based =
+in India.</div>
+<div><br>
+</div>
+<div>While studying your website I couldn't help noticing it lacked any sig=
+nificant ranking in Google - for any of your keywords.</div>
+<div><br>
+</div>
+<div>As you already suspect, this means your site is virtually invisible to=
+ potential customers searching for a supplier in your field.</div>
+<div><br>
+</div>
+<div>It's as though you'd made an expensive TV ad and then forgotten to buy=
+ any airtime for people to see it</div>
+<div><br>
+</div>
+<div>My company can solve this problem for you. We are an Indian based Comp=
+any, with over 6 years of experience in the field of Search Engine Optimiza=
+tion.</div>
+<div><br>
+</div>
+<div>We have the expertise to send hundreds or even thousands, of customers=
+ to your website.</div>
+<div><br>
+</div>
+<div>Make your website visible on Search Engines!!</div>
+<div><br>
+</div>
+<div>Improve your business website ranking!!</div>
+<div><br>
+</div>
+<div>What this would cost!!</div>
+<div><br>
+</div>
+<div>If you'd like to know this information, you're welcome to write back a=
+nd ask. I look forward to hearing from you.</div>
+<div><br>
+</div>
+<div>Best Regards,</div>
+Marketing Manager<br>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BMXPR01MB3831C260C06FDEE37EE4265194529BMXPR01MB3831INDP_--

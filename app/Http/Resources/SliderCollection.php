@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Resources\Json\ResourceCollection;
+
+class SliderCollection extends ResourceCollection
+{
+    public function toArray($request)
+    {
+        return [
+            'sliders' => $this->collection->map(function($data) {
+                
+                return [
+                 
+                    'photo' => api_asset($data)
+                ];
+            })
+        ];
+    }
+
+    public function with($request)
+    {
+        return [
+            // 'success' => true,
+            // 'status' => 200
+        ];
+    }
+}

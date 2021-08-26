@@ -1,0 +1,218 @@
+Return-Path: <Janvi.onlinemarketingonsultant@hotmail.com>
+Delivered-To: info@tujjar-oman.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id +LJ2LtcVlWBe3i0ATgMMlQ
+	(envelope-from <Janvi.onlinemarketingonsultant@hotmail.com>)
+	for <info@tujjar-oman.com>; Fri, 07 May 2021 06:26:31 -0400
+Return-path: <Janvi.onlinemarketingonsultant@hotmail.com>
+Envelope-to: info@tujjar-oman.com
+Delivery-date: Fri, 07 May 2021 06:26:31 -0400
+Received: from mail-oln040092254083.outbound.protection.outlook.com ([40.92.254.83]:58272 helo=APC01-PU1-obe.outbound.protection.outlook.com)
+	by premium188.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <Janvi.onlinemarketingonsultant@hotmail.com>)
+	id 1lexgk-00CiCT-Ht
+	for info@tujjar-oman.com; Fri, 07 May 2021 06:26:31 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=lNPa93Fjq3xU6hyCRMwAx9BrYL+KNGwhjUAMQkBbB5XVrpDnRFPFmzqneItdf0FCZERnmoeE5oLCfr5iWWN1nGgBYqgYEE83RMrSbJvwm8K0pgJ4Q6WSwVzqWPfjzG84teb69Z3UQSy33kAmREWuDQJZMRKi7+kGK2qPpxH5w6/mENAZ5x7gbjY7gnIFTQuuK4R7FxRIpwbJl334bF/gvjnvb0wWG03GwzP9iJThs7BoioyIvbLn5ibKr93dWSfYYIoE+T4tbXwUsmpWiCFjKj/ejnKMqBHCiovL/ieWemjoIXL7t0pLPVpsZ8LQ1/dkmSaXKWp914nLBYOuiRDa5Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=3LSwBJqeUBuVN5NjJNOvt80HWEECMfo/FRLs++maSxc=;
+ b=VleSQ0I6VtFxu3R7mGhhpKIyorDycbHDqsVzDQAPfOBMTyxurd6kBDNU3SWBdZGa2rZhdZpTcB3Apj2B7Vq2np22SSu988bdkgJyXcUU11PlTa5AicK/wgObhPe38eamepPCYVngNG3fALH+HTcBOSOcXZfKD/EZh5yRpZa9pIhmxmzS/0sokqumDkTstnJe8EbHGGItgH8Wti1MYRa/PjCSlJfaxOQVyUO5wf7/MFYn9YAttInztfnHjCwkvG13kocC3JEhiwAHfwgAChFtPmbV2rrRSBGh6C9KBlsAaW1rjA8bMrIzEaBWM9C8njyZwfbpxV0JXAaCRgQ7hCtCWQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=3LSwBJqeUBuVN5NjJNOvt80HWEECMfo/FRLs++maSxc=;
+ b=oXcDlHWkzUy5vDrB7FPoLSX+54+8QvsiRTvLqcaAdu8XCH2TosMt0373vR8xxr/cusGXdoa5J26zM/Zxs8A8Ce5UL1+yxkJqi+JjJWzi91Cf3EW+P+3TYx8AMx1GpVtDcvEuoH/NI/xp5nwX4GbuIlvdjcDntyMS5Sq/g1H35q6EdNEF9Mbg4oWnfEFvEKn2XewbQQfrg0S15j1MOulPUhHC1NddfS6Fy11ahW9sMTxuKghQvmo6b58LXzxju01UxZycuINGM3BVGXmKYRfEUtiUOJi6c+QU5QCEfX/HsjP60Dn3DOr2jbe5f6EcdscuUCkD8kODk7/q5Ta9uKNSmw==
+Received: from PU1PR04CA0018.apcprd04.prod.outlook.com (2603:1096:803:29::30)
+ by HK2PR01MB3315.apcprd01.prod.exchangelabs.com (2603:1096:202:22::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4108.25; Fri, 7 May
+ 2021 10:25:20 +0000
+Received: from PU1APC01FT112.eop-APC01.prod.protection.outlook.com
+ (2603:1096:803:29:cafe::de) by PU1PR04CA0018.outlook.office365.com
+ (2603:1096:803:29::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4108.25 via Frontend
+ Transport; Fri, 7 May 2021 10:25:20 +0000
+Received: from BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM (10.152.252.54) by
+ PU1APC01FT112.mail.protection.outlook.com (10.152.252.234) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4108.25 via Frontend Transport; Fri, 7 May 2021 10:25:19 +0000
+Received: from BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::78e2:3425:4e68:7cc8]) by BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM
+ ([fe80::78e2:3425:4e68:7cc8%7]) with mapi id 15.20.4108.029; Fri, 7 May 2021
+ 10:25:19 +0000
+From: Janvi Shah <Janvi.onlinemarketingonsultant@hotmail.com>
+Subject: Hightech SEO Proposal                                                                                                    
+Thread-Topic: Hightech SEO Proposal                                                                                                    
+Thread-Index: AQHXQysoVxUnwlAZv0Wg9gZXADbXQg==
+Date: Fri, 7 May 2021 10:25:19 +0000
+Message-ID:
+ <BMXPR01MB383126730E107FB07D44924594579@BMXPR01MB3831.INDPRD01.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker:
+ OriginalChecksum:ADEF05C49AAC567E6C4397D2FCD244D75C26205C75304F4D94275654477E99C8;UpperCasedChecksum:040AACB793EBBEB4BEADA1A003F72F69DB890334326E888C827CEBCB2B9E23A5;SizeAsReceived:14543;Count:40
+x-tmn: [7CtMLGqL3PwiqmJOYdtc08UtNBSiA50L]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 40
+x-eopattributedmessage: 0
+x-ms-office365-filtering-correlation-id: afe69f9e-c2eb-45f4-9c97-08d911426a39
+x-ms-traffictypediagnostic: HK2PR01MB3315:
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ CfRtbq/GEB+1YXa2xxLxDpqPwhQyzmGDhiLjy855iHyl+IJAmuqr315VqSbOkhdR8AL8vWBXpLr8PoH7YlCRoDYwAh1dks8XxcLgZzJ6UQ7wovwM6/vI07gue+iLNhSD7rUr17fd6Vmbs4QE11UfsGXmbCNGAZCOQQN1w2pm/xTJQyi48pajGj/xTc05UaQ3WTSSvzLEbnejkexbi1ygh/vQC8ppaceyjm1cCV6S8G8imqleLW/YaeTfs/29HQvMPK0VRpOTHn6I7ugezq/TVXqfCFGQg+YB1rInCztxXh048N8JVwkwwZ/bvuHumPYm/bOdnoPGvJdBCkuxZxn/3TPiYml5CBjsVVRThcfG0DSe+J2oXDvCIdVdoFdRXO/d+h0Mts5AUKrmRScgdYHUBEz2IrPOHiz2NQDbL0FxMUU/jz8NwYdL+4/fXqooCGwq
+x-ms-exchange-antispam-messagedata:
+ 5WarIphP/k3eXaUKdzWXzpwNAMRlG1VcaNCyI+MSmVRPHYNjaxElJhPEUQFZkMoUXFQl6Txsj3NTlcIQACL6ieSJN/2E824FO7qO2JFafUh76kNVmaFyBpZsGx/q8qZo1rrcrahs7eZd/39pc7K/9w==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_BMXPR01MB383126730E107FB07D44924594579BMXPR01MB3831INDP_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-3174-20-msonline-outlook-5c337.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-AuthSource: PU1APC01FT112.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: afe69f9e-c2eb-45f4-9c97-08d911426a39
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 May 2021 10:25:19.5790
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HK2PR01MB3315
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "premium188.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello & Good Day! I am a Marketing Manager for an international
+    marketing company based in India. While studying your website I couldn't
+   help noticing it lacked any significant ranking in Google - for any of your
+    keywords. 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [janvi.onlinemarketingonsultant[at]hotmail.com]
+  1.2 MISSING_HEADERS        Missing To: header
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 MALFORMED_FREEMAIL     Bad headers on message from free email
+                             service
+X-Spam-Flag: NO
+
+--_000_BMXPR01MB383126730E107FB07D44924594579BMXPR01MB3831INDP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hello & Good Day!
+
+I am a Marketing Manager for an international marketing company based in In=
+dia.
+
+While studying your website I couldn't help noticing it lacked any signific=
+ant ranking in Google - for any of your keywords.
+
+As you already suspect, this means your site is virtually invisible to pote=
+ntial customers searching for a supplier in your field.
+
+It's as though you'd made an expensive TV ad and then forgotten to buy any =
+airtime for people to see it
+
+My company can solve this problem for you. We are an Indian based Company, =
+with over 6 years of experience in the field of Search Engine Optimization.
+
+We have the expertise to send hundreds or even thousands, of customers to y=
+our website.
+
+Make your website visible on Search Engines!!
+
+Improve your business website ranking!!
+
+What this would cost!!
+
+If you'd like to know this information, you're welcome to write back and as=
+k. I look forward to hearing from you.
+
+Best Regards,
+Marketing Manager
+
+--_000_BMXPR01MB383126730E107FB07D44924594579BMXPR01MB3831INDP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Hello &amp; Good Day!
+<div><br>
+</div>
+<div>I am a Marketing Manager for an international marketing company based =
+in India.</div>
+<div><br>
+</div>
+<div>While studying your website I couldn't help noticing it lacked any sig=
+nificant ranking in Google - for any of your keywords.</div>
+<div><br>
+</div>
+<div>As you already suspect, this means your site is virtually invisible to=
+ potential customers searching for a supplier in your field.</div>
+<div><br>
+</div>
+<div>It's as though you'd made an expensive TV ad and then forgotten to buy=
+ any airtime for people to see it</div>
+<div><br>
+</div>
+<div>My company can solve this problem for you. We are an Indian based Comp=
+any, with over 6 years of experience in the field of Search Engine Optimiza=
+tion.</div>
+<div><br>
+</div>
+<div>We have the expertise to send hundreds or even thousands, of customers=
+ to your website.</div>
+<div><br>
+</div>
+<div>Make your website visible on Search Engines!!</div>
+<div><br>
+</div>
+<div>Improve your business website ranking!!</div>
+<div><br>
+</div>
+<div>What this would cost!!</div>
+<div><br>
+</div>
+<div>If you'd like to know this information, you're welcome to write back a=
+nd ask. I look forward to hearing from you.</div>
+<div><br>
+</div>
+<div>Best Regards,</div>
+Marketing Manager<br>
+</div>
+</body>
+</html>
+
+--_000_BMXPR01MB383126730E107FB07D44924594579BMXPR01MB3831INDP_--

@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: idiavzri@premium188.web-hosting.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id cAYPOdGHt2C3JxQATgMMlQ
+	(envelope-from <>)
+	for <idiavzri@premium188.web-hosting.com>; Wed, 02 Jun 2021 09:29:53 -0400
+Return-path: <>
+Envelope-to: idiavzri@premium188.web-hosting.com
+Delivery-date: Wed, 02 Jun 2021 09:29:53 -0400
+Received: from mailnull by premium188.web-hosting.com with local (Exim 4.94.2)
+	id 1loQwT-005Xd5-Tw
+	for idiavzri@premium188.web-hosting.com; Wed, 02 Jun 2021 09:29:53 -0400
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@premium188.web-hosting.com>
+To: idiavzri@premium188.web-hosting.com
+References: <E1lnKm5-00G5To-63@premium188.web-hosting.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622640593-eximdsn-2114751600
+MIME-Version: 1.0
+Subject: Warning: message 1lnKm5-00G5To-63 delayed 72 hours
+Message-Id: <E1loQwT-005Xd5-Tw@premium188.web-hosting.com>
+Date: Wed, 02 Jun 2021 09:29:53 -0400
+
+--1622640593-eximdsn-2114751600
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 72 hours on the queue on premium188.web-hosting.com.
+
+The message identifier is:     1lnKm5-00G5To-63
+The subject of the message is: 
+The date of the message is:    Sun, 30 May 2021 08:42:37 -0400
+
+The address to which the message has not yet been delivered is:
+
+  gzhandler@gmail.com
+    Delay reason: H=alt1.gmail-smtp-in.l.google.com [64.233.171.26]:
+    SMTP error from remote mail server after RCPT TO:<gzhandler@gmail.com>:
+    450-4.2.1 The user you are 
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1622640593-eximdsn-2114751600
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; premium188.web-hosting.com
+
+Action: delayed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 4.0.0
+
+--1622640593-eximdsn-2114751600
+Content-type: text/rfc822-headers
+
+Return-path: <idiavzri@premium188.web-hosting.com>
+Received: from idiavzri by premium188.web-hosting.com with local (Exim 4.94.2)
+	(envelope-from <idiavzri@premium188.web-hosting.com>)
+	id 1lnKm5-00G5To-63
+	for gzhandler@gmail.com; Sun, 30 May 2021 08:42:37 -0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: www.diamondo-stores.com/index.php for 72.79.50.66, 72.79.50.66
+X-PHP-Filename: /home/idiavzri/diamondo-stores.com/index.php REMOTE_ADDR: 72.79.50.66
+Message-Id: <E1lnKm5-00G5To-63@premium188.web-hosting.com>
+From: idiavzri@premium188.web-hosting.com
+Date: Sun, 30 May 2021 08:42:37 -0400
+
+
+--1622640593-eximdsn-2114751600--

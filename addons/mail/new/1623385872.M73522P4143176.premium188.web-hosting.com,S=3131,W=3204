@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: idiavzri@premium188.web-hosting.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id MGiCAxDnwmBIOD8ATgMMlQ
+	(envelope-from <>)
+	for <idiavzri@premium188.web-hosting.com>; Fri, 11 Jun 2021 00:31:12 -0400
+Return-path: <>
+Envelope-to: idiavzri@premium188.web-hosting.com
+Delivery-date: Fri, 11 Jun 2021 00:31:12 -0400
+Received: from mailnull by premium188.web-hosting.com with local (Exim 4.94.2)
+	id 1lrYp6-00HPuN-1O
+	for idiavzri@premium188.web-hosting.com; Fri, 11 Jun 2021 00:31:12 -0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@premium188.web-hosting.com>
+To: idiavzri@premium188.web-hosting.com
+References: <E1lrQbt-00AeuK-Rg@premium188.web-hosting.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1623385872-eximdsn-995971268
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lrYp6-00HPuN-1O@premium188.web-hosting.com>
+Date: Fri, 11 Jun 2021 00:31:12 -0400
+
+--1623385872-eximdsn-995971268
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    host alt1.gmail-smtp-in.l.google.com [64.233.171.26]
+    SMTP error from remote mail server after RCPT TO:<gzhandler@gmail.com>:
+    550-5.2.1 The user you are trying to contact is receiving mail at a rate that
+    550-5.2.1 prevents additional messages from being delivered. For more
+    550-5.2.1 information, please visit
+    550 5.2.1  https://support.google.com/mail/?p=ReceivingRatePerm m13si4753510otp.244 - gsmtp
+
+--1623385872-eximdsn-995971268
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; premium188.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; alt1.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.2.1 The user you are trying to contact is receiving mail at a rate that
+ 550-5.2.1 prevents additional messages from being delivered. For more
+ 550-5.2.1 information, please visit
+ 550 5.2.1  https://support.google.com/mail/?p=ReceivingRatePerm m13si4753510otp.244 - gsmtp
+
+--1623385872-eximdsn-995971268
+Content-type: message/rfc822
+
+Return-path: <idiavzri@premium188.web-hosting.com>
+Received: from idiavzri by premium188.web-hosting.com with local (Exim 4.94.2)
+	(envelope-from <idiavzri@premium188.web-hosting.com>)
+	id 1lrQbt-00AeuK-Rg
+	for gzhandler@gmail.com; Thu, 10 Jun 2021 15:45:01 -0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: diamondo-stores.com/index.php for 157.90.209.80, 157.90.209.80
+X-PHP-Filename: /home/idiavzri/diamondo-stores.com/index.php REMOTE_ADDR: 157.90.209.80
+Message-Id: <E1lrQbt-00AeuK-Rg@premium188.web-hosting.com>
+From: idiavzri@premium188.web-hosting.com
+Date: Thu, 10 Jun 2021 15:45:01 -0400
+
+https://diamondo-stores.com/product/CANDY-GIRL-ACQUA-PROFUMATA--ROB20006--95-ML-PZ3MY
+
+--1623385872-eximdsn-995971268--

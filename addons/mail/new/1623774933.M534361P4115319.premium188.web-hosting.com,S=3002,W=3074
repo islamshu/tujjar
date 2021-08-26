@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: idiavzri@premium188.web-hosting.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id QFTJH9XWyGB3yz4ATgMMlQ
+	(envelope-from <>)
+	for <idiavzri@premium188.web-hosting.com>; Tue, 15 Jun 2021 12:35:33 -0400
+Return-path: <>
+Envelope-to: idiavzri@premium188.web-hosting.com
+Delivery-date: Tue, 15 Jun 2021 12:35:33 -0400
+Received: from mailnull by premium188.web-hosting.com with local (Exim 4.94.2)
+	id 1ltC2H-00HKFv-GM
+	for idiavzri@premium188.web-hosting.com; Tue, 15 Jun 2021 12:35:33 -0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@premium188.web-hosting.com>
+To: idiavzri@premium188.web-hosting.com
+References: <E1lrjmX-009VLp-Hr@premium188.web-hosting.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1623774933-eximdsn-545436961
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ltC2H-00HKFv-GM@premium188.web-hosting.com>
+Date: Tue, 15 Jun 2021 12:35:33 -0400
+
+--1623774933-eximdsn-545436961
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    host alt4.gmail-smtp-in.l.google.com [173.194.77.26]
+    SMTP error from remote mail server after RCPT TO:<gzhandler@gmail.com>:
+    452-4.2.2 The email account that you tried to reach is over quota. Please direct
+    452-4.2.2 the recipient to
+    452 4.2.2  https://support.google.com/mail/?p=OverQuotaTemp m9si9336223uan.47 - gsmtp:
+    retry timeout exceeded
+
+--1623774933-eximdsn-545436961
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; premium188.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; alt4.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 452-4.2.2 The email account that you tried to reach is over quota. Please direct
+ 452-4.2.2 the recipient to
+ 452 4.2.2  https://support.google.com/mail/?p=OverQuotaTemp m9si9336223uan.47 - gsmtp: retry timeout exceeded
+
+--1623774933-eximdsn-545436961
+Content-type: message/rfc822
+
+Return-path: <idiavzri@premium188.web-hosting.com>
+Received: from idiavzri by premium188.web-hosting.com with local (Exim 4.94.2)
+	(envelope-from <idiavzri@premium188.web-hosting.com>)
+	id 1lrjmX-009VLp-Hr
+	for gzhandler@gmail.com; Fri, 11 Jun 2021 12:13:17 -0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: diamondo-stores.com/index.php for 157.90.209.80, 157.90.209.80
+X-PHP-Filename: /home/idiavzri/diamondo-stores.com/index.php REMOTE_ADDR: 157.90.209.80
+Message-Id: <E1lrjmX-009VLp-Hr@premium188.web-hosting.com>
+From: idiavzri@premium188.web-hosting.com
+Date: Fri, 11 Jun 2021 12:13:17 -0400
+
+https://diamondo-stores.com/product/EYE-CONTOUR-RESCUE-GEL-MASK-15G-zl0zu
+
+--1623774933-eximdsn-545436961--

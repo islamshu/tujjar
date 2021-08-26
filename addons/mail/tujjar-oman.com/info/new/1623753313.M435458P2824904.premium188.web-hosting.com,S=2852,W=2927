@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@tujjar-oman.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id wOV3GWGCyGDIGisATgMMlQ
+	(envelope-from <>)
+	for <info@tujjar-oman.com>; Tue, 15 Jun 2021 06:35:13 -0400
+Return-path: <>
+Envelope-to: info@tujjar-oman.com
+Delivery-date: Tue, 15 Jun 2021 06:35:13 -0400
+Received: from mailnull by premium188.web-hosting.com with local (Exim 4.94.2)
+	id 1lt6PZ-00BvY2-Bv
+	for info@tujjar-oman.com; Tue, 15 Jun 2021 06:35:13 -0400
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@premium188.web-hosting.com>
+To: info@tujjar-oman.com
+References: <0e754861c97069fe4b782af8a81c9a66@www.tujjar-oman.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1623753313-eximdsn-151965869
+MIME-Version: 1.0
+Subject: Warning: message 1lshnm-007crh-Av delayed 24 hours
+Message-Id: <E1lt6PZ-00BvY2-Bv@premium188.web-hosting.com>
+Date: Tue, 15 Jun 2021 06:35:13 -0400
+
+--1623753313-eximdsn-151965869
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 24 hours on the queue on premium188.web-hosting.com.
+
+The message identifier is:     1lshnm-007crh-Av
+The date of the message is:    Mon, 14 Jun 2021 08:18:34 +0000
+The subject of the message is: =?utf-8?Q?=D9=82=D8=AF_=D8=AA=D9=85_=D8=B9=D9=85?=
+ =?utf-8?Q?=D9=84_=D8=B7=D9=84=D8=A8=D9=83?= - 20210614-08183414
+
+The address to which the message has not yet been delivered is:
+
+  DD@DDDD.CC
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1623753313-eximdsn-151965869
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; premium188.web-hosting.com
+
+Action: delayed
+Final-Recipient: rfc822;DD@DDDD.CC
+Status: 4.0.0
+
+--1623753313-eximdsn-151965869
+Content-type: text/rfc822-headers
+
+Return-path: <info@tujjar-oman.com>
+Received: from idiavzri (helo=www.tujjar-oman.com)
+	by premium188.web-hosting.com with local-smtp (Exim 4.94.2)
+	(envelope-from <info@tujjar-oman.com>)
+	id 1lshnm-007crh-Av
+	for DD@DDDD.CC; Mon, 14 Jun 2021 04:18:34 -0400
+Message-ID: <0e754861c97069fe4b782af8a81c9a66@www.tujjar-oman.com>
+Date: Mon, 14 Jun 2021 08:18:34 +0000
+Subject: =?utf-8?Q?=D9=82=D8=AF_=D8=AA=D9=85_=D8=B9=D9=85?=
+ =?utf-8?Q?=D9=84_=D8=B7=D9=84=D8=A8=D9=83?= - 20210614-08183414
+From: tujjar-oman <info@tujjar-oman.com>
+To: DD@DDDD.CC
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Sender:  <idiavzri@premium188.web-hosting.com>
+
+
+--1623753313-eximdsn-151965869--

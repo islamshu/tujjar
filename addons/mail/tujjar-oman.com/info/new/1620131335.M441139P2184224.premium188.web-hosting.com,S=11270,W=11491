@@ -1,0 +1,221 @@
+Return-Path: <SpenserWeston@hotmail.com>
+Delivered-To: info@tujjar-oman.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id GCbaGQc+kWAgVCEATgMMlQ
+	(envelope-from <SpenserWeston@hotmail.com>)
+	for <info@tujjar-oman.com>; Tue, 04 May 2021 08:28:55 -0400
+Return-path: <SpenserWeston@hotmail.com>
+Envelope-to: info@tujjar-oman.com
+Delivery-date: Tue, 04 May 2021 08:28:55 -0400
+Received: from mail-oln040092255087.outbound.protection.outlook.com ([40.92.255.87]:42880 helo=APC01-HK2-obe.outbound.protection.outlook.com)
+	by premium188.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94)
+	(envelope-from <SpenserWeston@hotmail.com>)
+	id 1lduAX-009Aey-Tl
+	for info@tujjar-oman.com; Tue, 04 May 2021 08:28:55 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=aewlgb1d/MXDQxnqoQ4J4vVcpfEr/BBULgu8kZFpOXXnkyD3eIrgvyOzYo/iL7u56k8JkGsg8t/ObCCJAedxEk6KANC+PZ/+jvj2DKeYC2dJQzbACtqdUnp58PBIZzhtKKWdDYTD5bcesMdiubwSBxG1tAGhHupHXMrWS4WWDd0LoJwCr5gt+J7Uoyhol+haQ6j5C9H/du0G1bJeCwko9lj7ghjjibuphYq2mjMiKvSwCzvD/+oL8XhLxcocz09KWZBu7InVVPiJzKlqCscMz6byWUsAiNa46VvGd0W7mI0yoCYI9ibndmtAR1TU9+Nk5JvRQBTLZlYtKuyU2gHSVA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=kG+j8s27HF+QxHxBksL0qCCzf+/SC/Q+IQQXp2hUEJ8=;
+ b=m3nGfYSZPInqcwsr/InLMRk1R9Am7OL/qci1wa6XQ7EB6B9PpO4MWGqrt+fdnCTWI8KnRsn+XnrdU0yOi2HDAY/uhdJEOrjKKcSZnHN1dMeCteeqsPVNYoFtU3OTi4DhH6fHoibO0yOHejjpX6bUVbNnC5RSfM6CJ2v6TYdGKySM95vOG5Wo0B4h8LeYBkqxrsTdKCxxkk4x+2spMs9429vVAKYcYDXKAjHYqJxvWIXXduy9fUkRW8CvO/rNTB/ZMPka33Z1o/T6hh6lt+rlpGDtG4Dbx49n5aXQKH+myDdI65orb/xHstvfoyalIcYRkBLA/cEYaZtpvuWdNjkOfA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=kG+j8s27HF+QxHxBksL0qCCzf+/SC/Q+IQQXp2hUEJ8=;
+ b=ZuDomIblIhK+jm+/Z8MvyfMO0xzgJheUVQahVTZCrCpMpDGeyYr/rO36874aihrvN4MzV0RT1uJ1QXAaQ7GWtmayRfYKG9t1k7T9I3xlja51DmPBsvbMHEtssDytbkhtW+hZy/m+soEygdZO1NFk1dAftVoD2PYQRWx9X/VF3CG1SPU/ZjUZFoPnjnD+r/5HmEWi7vx6wU0y4NT/FAyADrYWuNyIUR6PiftCeQ+SyxhTn30R07fDrso9zNXa4aK/DLIKXCPjBond0lyV1Fa1jlZTBRsn8Hisqx/GClfYdKWVlGtyFudJcBKDA6IcP4rf89HM9HvVGAwgKVxR1D0vew==
+Received: from PS2PR02MB2695.apcprd02.prod.outlook.com (2603:1096:300:49::20)
+ by PSAPR02MB5176.apcprd02.prod.outlook.com (2603:1096:301:83::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4087.38; Tue, 4 May
+ 2021 12:28:11 +0000
+Received: from PS2PR02MB2695.apcprd02.prod.outlook.com
+ ([fe80::5991:1e9e:3671:2590]) by PS2PR02MB2695.apcprd02.prod.outlook.com
+ ([fe80::5991:1e9e:3671:2590%5]) with mapi id 15.20.4087.044; Tue, 4 May 2021
+ 12:28:11 +0000
+From: "Spenser Weston" <SpenserWeston@hotmail.com>
+To: <info@tujjar-oman.com>
+Subject: Re: Web-Site Inquiry
+Date: Tue, 4 May 2021 17:56:08 +0530
+Message-ID:
+ <PS2PR02MB26954BAC7B99F14B4F79E695B75A9@PS2PR02MB2695.apcprd02.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0184_01D7410F.004696E0"
+X-Mailer: Microsoft Outlook 16.0
+Sensitivity: Personal
+Thread-Index: AddA4HABcIzozvIGQlacQYEAPlV5zA==
+Content-Language: en-us
+X-TMN: [dGnkD6zF/AONKvSYn2UVvqtvhitU1BiBoHCtMYdZNLgLUM359eq16QaWUWY2Jlkz]
+X-ClientProxiedBy: PN2PR01CA0055.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:c01:22::30) To PS2PR02MB2695.apcprd02.prod.outlook.com
+ (2603:1096:300:49::20)
+X-Microsoft-Original-Message-ID: <018301d740e0$e68d7080$b3a85180$@hotmail.com>
+Importance: high
+X-Priority: 1
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+Received: from vsPC (2405:204:130b:b6eb:25c0:5524:f7f3:be9e) by PN2PR01CA0055.INDPRD01.PROD.OUTLOOK.COM (2603:1096:c01:22::30) with Microsoft SMTP Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA) id 15.20.4108.24 via Frontend Transport; Tue, 4 May 2021 12:27:56 +0000
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: bc3c294c-6d03-4061-a5b6-08d90ef80c09
+X-MS-TrafficTypeDiagnostic: PSAPR02MB5176:
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	Cw86QYNnC3JU6NC4lmDweSyrt4mP9t5YEqBgnN1LDKGKC2hm0p6ALJTrBjz1dq99U3dELguaCXrd11TgOJi8of5RWUjVBfHLwBzrTCex8oDwJAsShlRWCuNfOsVSw/J5ZdwVMNCjBpqh3YRpU/VTmAbvExAHvC6hK+2X19QLPEXmLGpMb1iwY384ASLKc0tkmnaCw4+oEWsA4OSWxjEZG4DdPcf59O30sasxatBzTfv4r7vMcvNG/CyVwCvLdZv0fLzFZ9JGFsvDaI8fX5hA1qADK42teYJxD6jp3av9oEI1nxsODPwDuRj3Dy3vkAbhy8xHBTmImrtfM+rCvVtePSlmAaUUEzUDiWLj2JVzMqf9vwisrzWGDRYOIcGGNOLsS/Kvij4r1/s+VadY2MvogA==
+X-MS-Exchange-AntiSpam-MessageData:
+	ZboyyxKw8YKQTBRgFkVdCx2ybXorZLtxjDh6HFfnbbbIXsyP4y+LxO1YeiQk+9bYq3juN+Xn9wV0pkdg211roxdS01Lh435jXA7nkQzobi3oHd6xdK7AVLPfkf+5FnnfnjtHDL6T2Jw4/nNrCBIoIQ11bsQymf7NZUMH+Hs2WK47ABE5f+I2An3aZbAuuQ8XilFR32a66zyAZnU2lUoQ9A==
+X-OriginatorOrg: sct-15-20-3174-20-msonline-outlook-0bb73.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: bc3c294c-6d03-4061-a5b6-08d90ef80c09
+X-MS-Exchange-CrossTenant-AuthSource: PS2PR02MB2695.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 May 2021 12:27:56.9291
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PSAPR02MB5176
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "premium188.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I'm reaching out to see if there is anything that would
+    like to upgrade, repair, or redesign on your site. I am a web Designer/Developer
+    that can do just about anything you can imagine at very affordable prices.
+    
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.9 PRICES_ARE_AFFORDABLE  BODY: Message says that prices aren't too
+                             expensive
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [spenserweston[at]hotmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+------=_NextPart_000_0184_01D7410F.004696E0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to upgrade, repair, or redesign on your site.
+
+I am a web Designer/Developer that can do just about anything you can imagine at very affordable prices.
+
+ 
+
+Let me know what you think.
+
+ 
+
+Thanks
+
+ 
+
+
+------=_NextPart_000_0184_01D7410F.004696E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)"><=
+style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-priority:99;
+	mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:Consolas;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Plain Text";
+	font-family:Consolas;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US"><div class=3D"WordSection1"><p style=
+=3D"margin:0in;margin-bottom:.0001pt;background:white"><span style=3D"font-=
+family:&quot;Calibri&quot;,sans-serif;color:#222222">Hello,</span><o:p></o:=
+p></p><p style=3D"margin:0in;margin-bottom:.0001pt;background:white;margin-=
+bottom:1.0E-4pt"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&=
+quot;,sans-serif;color:#222222">I'm reaching out to see if there is anythin=
+g that would like to upgrade, repair, or redesign on your site.</span><o:p>=
+</o:p></p><p style=3D"margin:0in;margin-bottom:.0001pt;background:white;mar=
+gin-bottom:1.0E-4pt"><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif;color:#222222">I am a web&nbsp;<b><i>Designer/Develope=
+r</i></b>&nbsp;that can do just about anything you can imagine at very affo=
+rdable prices.</span><o:p></o:p></p><p style=3D"margin:0in;margin-bottom:.0=
+001pt;background:white;margin-bottom:1.0E-4pt"><span style=3D"font-size:11.=
+0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#222222">&nbsp;</span>=
+<o:p></o:p></p><p style=3D"margin:0in;margin-bottom:.0001pt;background:whit=
+e;margin-bottom:1.0E-4pt"><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#222222">Let me know what you think.</span>=
+<o:p></o:p></p><p style=3D"margin:0in;margin-bottom:.0001pt;background:whit=
+e;margin-bottom:1.0E-4pt"><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#222222">&nbsp;</span><o:p></o:p></p><p sty=
+le=3D"margin:0in;margin-bottom:.0001pt;background:white;margin-bottom:1.0E-=
+4pt"><span style=3D"font-family:&quot;Calibri&quot;,sans-serif;color:#22222=
+2">Thanks</span><o:p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>=
+</div></body></html>=
+
+------=_NextPart_000_0184_01D7410F.004696E0--

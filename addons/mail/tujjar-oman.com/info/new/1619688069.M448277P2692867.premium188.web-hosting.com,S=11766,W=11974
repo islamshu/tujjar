@@ -1,0 +1,208 @@
+Return-Path: <jahansinghs@outlook.com>
+Delivered-To: info@tujjar-oman.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id 6UsnGoV6imADFykATgMMlQ
+	(envelope-from <jahansinghs@outlook.com>)
+	for <info@tujjar-oman.com>; Thu, 29 Apr 2021 05:21:09 -0400
+Return-path: <jahansinghs@outlook.com>
+Envelope-to: info@tujjar-oman.com
+Delivery-date: Thu, 29 Apr 2021 05:21:09 -0400
+Received: from mail-oln040092253048.outbound.protection.outlook.com ([40.92.253.48]:6137 helo=APC01-SG2-obe.outbound.protection.outlook.com)
+	by premium188.web-hosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94)
+	(envelope-from <jahansinghs@outlook.com>)
+	id 1lc2r6-00BIFJ-3W
+	for info@tujjar-oman.com; Thu, 29 Apr 2021 05:21:09 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=C4QVfLHms8Mnr1Vxi2Skf/DZrcTds9rbYpl87kVNZVx3J9+VthodakRst93DNYG1B+1ZcnRH0wYOYPA+sveqR2Okh9FNFsfsnziEfgM78ptAoz7C7rMptxQYJGi8b+xM/rLxQO0IbL86dA1BHL8mbYS/p5S3smZTkOqwV+VHxGa4Zkep1YyN7stZeLDzqKOIwI/fchY83AkuYP/Duv8yYBxB+4sAoEpzqUyTZlhjdSPLyK8DT6NkgVXValix9g7TcJ1PVedk60IUXMWs6adkKBcY6ylEmmPNKA/pQU82odMzDIikF4M+ff4k+JvsRBR3nvVxUzBkriMK2rkaKTI2Xg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Rgy7UDolxKAqnR+FA2xbCG4LTxXezF35Lw/de6tr0Vo=;
+ b=UdoPWL6t02VOrW7EpMDRzmQfaM7KFz9SrNTEVoUchvd1lAs2iAoz6gy8KL6mBpVe0nxhKtvkkbXfiImHCjup1rRYRZjF3PPswbkfIIPmv9FN7u/VaUyZpeqmtG3t37uVrnPe1IrhFAOLYk/PRNlzKiIrmKxWUBjl+lcGHu70xuwlIXAWjrWhsFcznezFUxM5Yv3vf3W/6vUunjxN/jKva+a8q8lp4wJWaVVY2AJ1GQO3z2fFRLIYFpusjYsdd0YAQTnmYc1TKSJnH7w+bsZqeAjiLRsIrkm5XupPIAkUqfLCDpFtlQ8PJ5m86u1C5+2wwT7ZAzLfDso2WzQdtYr1fA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Rgy7UDolxKAqnR+FA2xbCG4LTxXezF35Lw/de6tr0Vo=;
+ b=rFIhwbbKYsXmGc09cZzBL5oWZvZL7WgN/aJqQUKx0foAd5y3Mn6hFRXZTv4/fJTJEgE5Pd+hpBxHLVQaSr38Psp+b/IG23rjgmzx57Wa/YthQD/dBp/mABiGcVz5wQ/o3EGRvjH7bBJksGlsnnK4Fwi3PQYuNNADbKLN0mnmTjP0wt6Vuf/MR2POwkqAVJfBWWNkMUbdyleWCZ4/2mEppqlotyo5iv4ZkZa6faNZV9Hur0x/eUO+0xAr7ExdJnePnvXWwnWJL+RDeOTeL7tZLOcAm08njPl21BA/J1uZnAFtpBIFZ2NK6LzpdCTRKQ7bXSV7YpktDlVd5A77ttrwMw==
+Received: from SI2PR01MB3930.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:100::10) by SI2PR01MB3962.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:10e::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4065.21; Thu, 29 Apr
+ 2021 09:19:52 +0000
+Received: from SI2PR01MB3930.apcprd01.prod.exchangelabs.com
+ ([fe80::3174:89bd:a136:624b]) by SI2PR01MB3930.apcprd01.prod.exchangelabs.com
+ ([fe80::3174:89bd:a136:624b%4]) with mapi id 15.20.4065.029; Thu, 29 Apr 2021
+ 09:19:52 +0000
+From: Jahan Singh <jahansinghs@outlook.com>
+Subject: Website Designing
+Thread-Topic: Website Designing
+Thread-Index: AQHXPNi4kpQ5IY/XrECxXgaKHxVl+A==
+Date: Thu, 29 Apr 2021 09:19:52 +0000
+Message-ID:
+ <SI2PR01MB393016AB153831A0D7EB12AFB85F9@SI2PR01MB3930.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-tmn: [KwBRrYjs16PKPTts8cndO5xhoZ3QhlLu72alYdG1XfA=]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: dc873470-2c8f-4774-52bd-08d90aeff206
+x-ms-exchange-slblob-mailprops:
+ jU7fZ3FgphX84RH4XUXqk8dz0W6egBkeYpt2eUIEP6E+2i8t0/ix+mTr3LcwPWRr3htUqCX/KcxrZCDaIa1iZLew7Tdnv60XqPQL1biwqh8gR3aXSKzAnhqvDAYFdbqatmkHkXjy7PNgZzpkM02NiFw2izQ5OHxV+amWmIAWvp1AfJVWYN2FMyw0e70cBvoe0NPzpeAmlp3fBbMbxhHMngdgb3LramB7H5KJLObxqGBIDfrnWbzhQCZZ/CGSqFddycbnocvcGQeqGVGqLG3D85CZ8ZR799XFnai5bzZnnA7seigxKt/X6J5yGO+cHkO7ahg5PbvrtY/KFlCoyqdvsj4RcZoPQR5K1boTU2e3t/gt6Y8D0U2ePmBesyRKEtgSMY7fpdEdpWPQ9r/hUlacuvU9l3j/biJskNr7Tsv3U6uoF7IjccClhEO1eZbgktgowyFPZDOzklB6cpK1/K/jhQYmsqzA7XfJINjIHHIMbwzzAdxjJOmJc7rcm2q2HqodmYBF5qvIJRI09bfJ+0BfKkO7iubRJ8RNuAZUN7MDLpStYPVdUXF/hGOlVJXINqez0bZCrQxw3Bbuy58QTX+KYF1vfEVxrnK306Vw6njZRGe+gFzW7TgH0g==
+x-ms-traffictypediagnostic: SI2PR01MB3962:
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ qWSNcRLOhxKOt+Dlp7mr66LU6TlbAYikvL9J5r8UJM9cntQS10943kUSsGRZpsYlrQgiftmpR+8Qf9NSJH0LdSoLLX4FoNWkkcQCbVSZZlFC7kYX/CgmpjyArTw3u0xGg8nBH9kBWHLZ2XVE27LSz7dxuhz4xVzCXvANrFxQ0McWAmHnWRe0lT4GpiBSilc5ODItB+tICtIMTX2Aoehj1eMPqPkLwPNDcy5utPthVrqYh4Hd3AoZpCAFJEeix8iXnlGrfjFmr+S+DwyGXgb0IjbDoyclX4ht/AaAPDr/Ej7+A0v1U6nd1BlqnKG3H6b+l+zjyY4epnR6KkJ87spuTtTM176XOYpn0cMTcbNCzDbIWP6DjczVk+/W5GL4av1ZKznpnjRyrid8ErmmhveZHg==
+x-ms-exchange-antispam-messagedata:
+ 1nOz08Gj7Lmf9S85ovIK8dq/o1dWC7Ig/4qOePRIn2k6yVYD1s1GmJ+LXdhDa7HX+hm4pjmIpY5Xro6MLxevtVg8nFUIFNOVKlL33wCd9UpIrr7ma15BmqRVKhZvVRz7/mZ4PWSZBINXLoiK1nq8Zw==
+x-ms-exchange-transport-forked: True
+Content-Type: multipart/alternative;
+	boundary="_000_SI2PR01MB393016AB153831A0D7EB12AFB85F9SI2PR01MB3930apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SI2PR01MB3930.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: dc873470-2c8f-4774-52bd-08d90aeff206
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Apr 2021 09:19:52.1995
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI2PR01MB3962
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "premium188.web-hosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I am Marketing Consultant, We are IT Company with 100+
+    IT professionals into, Web Designing & Development, FlashDesign, Graphic
+   Design, PHP Development, CMS and E-commerce Solution. We offer following Services
+    with affordable cost than what it might be in house: - Logo Design Website
+    Designing Website Development Mobile Website Design Web Site Redesigning
+   Graphic Designing PHP De [...] 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [jahansinghs[at]outlook.com]
+  1.2 MISSING_HEADERS        Missing To: header
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_000_SI2PR01MB393016AB153831A0D7EB12AFB85F9SI2PR01MB3930apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+I am Marketing Consultant,
+We are IT Company with 100+ IT professionals into, Web Designing & Developm=
+ent, FlashDesign, Graphic Design, PHP Development, CMS and E-commerce Solut=
+ion.
+
+We offer following Services with affordable cost than what it might be in h=
+ouse: -
+Logo Design
+Website Designing
+Website Development
+Mobile Website Design
+Web Site Redesigning
+Graphic Designing
+PHP Development
+Content Management Systems
+Flash Designing
+E-Commerce Solution
+I will highly appreciate if you have any requirement for the same or any ot=
+her requirement on the above mentioned services provided by us.
+Looking forward to hearing from you.
+Regards,
+
+
+
+--_000_SI2PR01MB393016AB153831A0D7EB12AFB85F9SI2PR01MB3930apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-fa=
+mily:&quot;Segoe UI&quot;;color:#212121;background:white;mso-bidi-font-weig=
+ht:bold">Hi,<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-fa=
+mily:&quot;Segoe UI&quot;;color:#212121;background:white;mso-bidi-font-weig=
+ht:bold">I am&nbsp;Marketing Consultant,<br>
+We are IT Company with 100+ IT professionals into,&nbsp;Web&nbsp;Designing&=
+nbsp;&amp; Development, FlashDesign, Graphic&nbsp;Design, PHP Development, =
+CMS and E-commerce Solution.<br>
+<br>
+We offer following Services with affordable cost than what it might be in h=
+ouse: -<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<b><span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-=
+ascii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font=
+-family:&quot;Segoe UI&quot;;color:#212121;background:white">Logo&nbsp;Desi=
+gn<br>
+Website&nbsp;Designing<br>
+Website Development<br>
+Mobile Website&nbsp;Design<br>
+Web&nbsp;Site Redesigning<br>
+Graphic&nbsp;Designing<br>
+PHP Development<br>
+Content Management Systems<br>
+Flash&nbsp;Designing<br>
+E-Commerce Solution<o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri, sans-serif">
+<span lang=3D"EN-US" style=3D"font-family:&quot;Cambria&quot;,serif;mso-asc=
+ii-theme-font:major-latin;mso-hansi-theme-font:major-latin;mso-bidi-font-fa=
+mily:&quot;Segoe UI&quot;;color:#212121;background:white;mso-bidi-font-weig=
+ht:bold">I will highly appreciate if you have any requirement
+ for the same or any other requirement on the above mentioned services prov=
+ided by us.<br>
+Looking forward to hearing from you.<o:p>&nbsp;</o:p></span></p>
+<span lang=3D"EN-US" style=3D"font-size:11.0pt;line-height:115%;font-family=
+:&quot;Cambria&quot;,serif;mso-ascii-theme-font:major-latin;mso-fareast-fon=
+t-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:ma=
+jor-latin;mso-bidi-font-family:&quot;Segoe UI&quot;;color:#212121;backgroun=
+d:white;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-languag=
+e:AR-SA;mso-bidi-font-weight:bold">Regards,<br style=3D"mso-special-charact=
+er:line-break">
+<br style=3D"mso-special-character:line-break">
+</span><br>
+</div>
+</body>
+</html>
+
+--_000_SI2PR01MB393016AB153831A0D7EB12AFB85F9SI2PR01MB3930apcp_--

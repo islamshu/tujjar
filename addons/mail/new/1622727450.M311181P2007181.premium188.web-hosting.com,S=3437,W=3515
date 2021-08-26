@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: idiavzri@premium188.web-hosting.com
+Received: from premium188.web-hosting.com
+	by premium188.web-hosting.com with LMTP
+	id CEd7EhrbuGCNoB4ATgMMlQ
+	(envelope-from <>)
+	for <idiavzri@premium188.web-hosting.com>; Thu, 03 Jun 2021 09:37:30 -0400
+Return-path: <>
+Envelope-to: idiavzri@premium188.web-hosting.com
+Delivery-date: Thu, 03 Jun 2021 09:37:30 -0400
+Received: from mailnull by premium188.web-hosting.com with local (Exim 4.94.2)
+	id 1lonXO-008Rac-97
+	for idiavzri@premium188.web-hosting.com; Thu, 03 Jun 2021 09:37:30 -0400
+X-Failed-Recipients: gzhandler@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@premium188.web-hosting.com>
+To: idiavzri@premium188.web-hosting.com
+References: <E1lnKmX-00G5wv-Cl@premium188.web-hosting.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622727450-eximdsn-42140309
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lonXO-008Rac-97@premium188.web-hosting.com>
+Date: Thu, 03 Jun 2021 09:37:30 -0400
+
+--1622727450-eximdsn-42140309
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  gzhandler@gmail.com
+    host alt4.gmail-smtp-in.l.google.com [173.194.77.26]
+    SMTP error from remote mail server after RCPT TO:<gzhandler@gmail.com>:
+    450-4.2.1 The user you are trying to contact is receiving mail at a rate that
+    450-4.2.1 prevents additional messages from being delivered. Please resend your
+    450-4.2.1 message at a later time. If the user is able to receive mail at that
+    450-4.2.1 time, your message will be delivered. For more information, please
+    450-4.2.1 visit
+    450 4.2.1  https://support.google.com/mail/?p=ReceivingRate f25si1350165ual.171 - gsmtp:
+    retry timeout exceeded
+
+--1622727450-eximdsn-42140309
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; premium188.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;gzhandler@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; alt4.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 450-4.2.1 The user you are trying to contact is receiving mail at a rate that
+ 450-4.2.1 prevents additional messages from being delivered. Please resend your
+ 450-4.2.1 message at a later time. If the user is able to receive mail at that
+ 450-4.2.1 time, your message will be delivered. For more information, please
+ 450-4.2.1 visit
+ 450 4.2.1  https://support.google.com/mail/?p=ReceivingRate f25si1350165ual.171 - gsmtp: retry timeout exceeded
+
+--1622727450-eximdsn-42140309
+Content-type: message/rfc822
+
+Return-path: <idiavzri@premium188.web-hosting.com>
+Received: from idiavzri by premium188.web-hosting.com with local (Exim 4.94.2)
+	(envelope-from <idiavzri@premium188.web-hosting.com>)
+	id 1lnKmX-00G5wv-Cl
+	for gzhandler@gmail.com; Sun, 30 May 2021 08:43:05 -0400
+To: gzhandler@gmail.com
+Subject: 
+X-PHP-Script: www.diamondo-stores.com/index.php for 72.79.50.66, 72.79.50.66
+X-PHP-Filename: /home/idiavzri/diamondo-stores.com/index.php REMOTE_ADDR: 72.79.50.66
+Message-Id: <E1lnKmX-00G5wv-Cl@premium188.web-hosting.com>
+From: idiavzri@premium188.web-hosting.com
+Date: Sun, 30 May 2021 08:43:05 -0400
+
+https://www.diamondo-stores.com/product/Alwasm-634zh
+
+--1622727450-eximdsn-42140309--
