@@ -87,6 +87,11 @@ class ShopController extends BaseController
         $shop['data'] = ShopResource::collection(Shop::where('user_id', auth('api')->id())->get());
         return $this->sendResponse($shop, translate('shop Of User'));
     }
+    public function info_loign(){
+    $id=    auth('api')->shop->id;
+        $shop['data'] = new ShopResource(Shop::find($id));
+        return $this->sendResponse($shop, translate('shop'));
+    }
 
     public function allProducts($id)
     {

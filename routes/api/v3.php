@@ -122,6 +122,7 @@ Route::prefix('v3')->namespace('Api\V3')->middleware(['is_login', 'changeLanguag
     Route::post('send_ticket', 'SupportTicketController@store');
     Route::post('ticket_replies', 'SupportTicketController@ticket_replies');
     Route::get('tickets', 'SupportTicketController@index');
+    Route::get('info_profile','ShopController@info_loign');
     Route::get('seller/dashboard', 'SellerController@home');
     Route::post('seller/createOrupdate/{attribute}', 'ProductController@seller_product')->name('api.create_product');
     Route::post('edit_store', 'SellerController@store_edit');
